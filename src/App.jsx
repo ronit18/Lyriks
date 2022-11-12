@@ -5,7 +5,6 @@ import { Searchbar, Sidebar, MusicPlayer, TopPlay } from "./components";
 import {
 	ArtistDetails,
 	TopArtists,
-	AroundYou,
 	Discover,
 	Search,
 	SongDetails,
@@ -30,7 +29,7 @@ const App = () => {
 								element={<TopArtists />}
 							/>
 							<Route path="/top-charts" element={<TopCharts />} />
-							<Route path="/around-you" element={<AroundYou />} />
+
 							<Route
 								path="/artists/:id"
 								element={<ArtistDetails />}
